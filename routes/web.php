@@ -21,3 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'nyumbaniController@mwanzo')->name('mwanzo');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
