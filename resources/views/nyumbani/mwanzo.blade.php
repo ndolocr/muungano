@@ -12,29 +12,48 @@
 	<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
 <body>
-		<!-- BEGIN HEADER -->
-		<header class="header">
-			
-			<!-- BEGIN HEADER IMAGE SECTION-->
-			<div class="header__img"> <img src="storage/assets/img/homepage/" alt="Header Background Image"> </div>
-			<!-- END HEADER IMAGE SECTION-->
-			
-			<!-- BEGIN HEADER COVER SECTION-->
-			<div class="header__cover"> </div>
-			<!-- END HEADER COVER SECTION-->					
-			
-			<!-- BEGIN TEXTBOX CLASS -->
-			<div class="text-box">
-				<h1 class="heading-primary">	
-					<span class="heading-primary-main"> Muungano </span>	
-					<span class="heading-primary-sub"> Theatre </span>
-				</h1>
+	<!-- BEGIN HEADER -->
+	<header class="header">
+		
+		<!-- BEGIN HEADER IMAGE SECTION-->
+		<div class="header__img"> 
+			<img src="assets/img/homepage/1584683134.jpg" alt="Header Background Image"> 
+		</div>
+		<!-- END HEADER IMAGE SECTION-->
+		
+		<!-- BEGIN HEADER COVER SECTION-->
+		<div class="header__cover"> </div>
+		<!-- END HEADER COVER SECTION-->					
+		
+		<!-- BEGIN TEXTBOX CLASS -->
+		<div class="text-box">
+			<h1 class="heading-primary">	
+				<span class="heading-primary-main"> Muungano</span>	
+				<span class="heading-primary-sub"> our home of entertainment </span>
+			</h1>
 
-				<a href="#" class="btn btn-white"> About us </a>
-			</div>
-			<!-- END TEXTBOX CLASS -->
+			<a href="{{ route('karibu') }}" class="btn btn-white"> Welcome </a>
+		</div>
+		<!-- END TEXTBOX CLASS -->
 
-		</header>
-		<!-- END HEADER -->
+	</header>
+	<!-- END HEADER -->
+
+	<!-- BEGIN JAVASCRIPT FILES -->
+	<script src="{{ URL::asset('assets/js/jquery.min.js') }}" type="text/javascript"></script>
+	<script  src="{{ URL::asset('assets/js/jquery.slideshow.min.js') }}" type="text/javascript"></script>
+	<!-- END JAVASCRIPT FILES -->
+
+	<!-- BEGIN JAVASCRPTI SCRIPT -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.slideshow').slideshow({
+				timeout: 5000,
+				fadetime: 2000,
+				type: 'sequence'
+			});
+	        });
+	</script>
+	<!-- END JAVASCRIPT SCRIPT -->
 </body>
 </html>

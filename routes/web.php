@@ -19,9 +19,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'nyumbaniController@mwanzo')->name('mwanzo');
-
+Route::get('/welcome', 'nyumbaniController@karibu')->name('karibu');
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

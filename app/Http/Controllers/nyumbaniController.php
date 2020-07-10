@@ -16,6 +16,10 @@ class nyumbaniController extends Controller
         return view('nyumbani.mwanzo');
     }
 
+    public function karibu(){
+        return view('nyumbani.karibu');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

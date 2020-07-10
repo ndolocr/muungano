@@ -109,11 +109,12 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden; }
   .heading-primary-main {
+    color: #EE6c81;
     display: block;
     font-size: 5rem;
     font-weight: 400;
     letter-spacing: 3.5rem;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-name: moveInLeft;
     animation-timing-function: ease-out; }
     @media (max-width: 37.5em) {
@@ -121,11 +122,12 @@ body {
         font-size: 3rem;
         letter-spacing: 1em; } }
   .heading-primary-sub {
+    color: #93A806;
     display: block;
     font-size: 1.35rem;
     font-weight: 700;
     letter-spacing: 1.3rem;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-name: moveInRight;
     animation-timing-function: ease-out; }
     @media (max-width: 37.5em) {
@@ -228,25 +230,27 @@ nav {
 }
 
 .header {
-  height: 95vh;
+  height: 90vh;
+  overflow: hidden;
   position: relative;
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  -moz-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  -moz-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
   .header__img {
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     background-size: cover; }
   .header__cover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     position: absolute;
     /*background-image: linear-gradient(to right bottom, rgba(248, 237, 200, 0.8), rgba(196, 151, 4, 0.8));*/
-    background-image: linear-gradient(to right bottom, rgba(226, 106, 106, 0.8), rgba(196, 151, 4, 0.8)); }
+    /*background-image: linear-gradient(to right bottom, rgba(226, 106, 106, 0.8), rgba(196, 151, 4, 0.8)); }*/
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 1.8), rgba(0, 0, 0, 0.2)); }
 
 .logo-box {
   top: 4rem;
