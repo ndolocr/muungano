@@ -1,0 +1,9 @@
+.navbar{ border: none; border-radius: 0; background: #2b3643; }
+.navbar-default .navbar-nav li a{ color: #FFFFFF; }
+.navbar-default .navbar-nav li a:hover{ color: #999999; }
+/*.navbar-default .navbar-nav .active a{ color: #FFFFFF; }
+.navbar-default .navbar-nav .active a:hover{ color: #999999; } */
+body{ background: #34495e; }
+.filamu img{ width: 100%; overflow: hidden;}
+.logo-yetu{background: #1d242d; text-align: center; }
+.logo-yetu a{ color: #FFFF; text-align: center; font-size: 1.8rem; }
