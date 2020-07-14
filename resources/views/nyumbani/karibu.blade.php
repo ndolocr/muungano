@@ -13,6 +13,12 @@
 		<link rel="stylesheet" href="assets/css/other_styles.css" type="text/css">
 	</head>
 	<body>
+
+		<!-- BEGIN NAVIGATION BAR -->
+		<div class="sehemu-ya-juu">
+			Top Bar Section
+		</div>
+		<!-- END NAVIGATION BAR -->
 		
 		<!-- BEGIN LOGO
 			<div class="container-fluid">
