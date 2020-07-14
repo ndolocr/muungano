@@ -16,8 +16,8 @@ class nyumbaniController extends Controller
         return view('nyumbani.mwanzo');
     }
 
-    public function karibu(){
-        return view('nyumbani.karibu');
+    public function movies(){
+        return view('nyumbani.movies');
     }
 
     /**
