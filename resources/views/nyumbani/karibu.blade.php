@@ -15,9 +15,27 @@
 	<body>
 
 		<!-- BEGIN NAVIGATION BAR -->
-		<div class="sehemu-ya-juu">
-			Top Bar Section
+		<div class="row sehemu-ya-juu">
+			<!-- BEGIN MENU -->
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				Menu Section
+			</div>
+			<!-- END MENU -->
+
+			<!-- BEGIN LOGO -->
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				Muungano Theatres
+			</div>
+			<!-- END LOGO -->
+
+			<!-- BEGIN OTHER MENU -->
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				Other Menu
+			</div>
+			<!-- END OTHER MENU -->
+
 		</div>
+
 		<!-- END NAVIGATION BAR -->
 		
 		<!-- BEGIN LOGO
