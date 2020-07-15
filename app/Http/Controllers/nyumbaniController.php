@@ -20,6 +20,11 @@ class nyumbaniController extends Controller
         return view('nyumbani.movies');
     }
 
+    public function adminDashboard(){
+        return view('admin.dashboard');
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *

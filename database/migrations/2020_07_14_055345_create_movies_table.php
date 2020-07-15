@@ -21,6 +21,7 @@ class CreateMoviesTable extends Migration
             $table->year('year_released');
             $table->string('feature_image');
             $table->string('classification');
+            $table->string('movie_identifier');
             $table->timestamps();
         });
     }

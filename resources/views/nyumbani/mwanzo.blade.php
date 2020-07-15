@@ -32,7 +32,7 @@
 				<span class="heading-primary-sub"> our home of entertainment </span>
 			</h1>
 
-			<a href="{{ route('karibu') }}" class="btn btn-white"> Welcome </a>
+			<a href="{{ route('movies') }}" class="btn btn-white"> Welcome </a>
 		</div>
 		<!-- END TEXTBOX CLASS -->
 
