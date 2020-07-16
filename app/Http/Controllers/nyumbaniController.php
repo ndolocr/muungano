@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Movie;
 use Illuminate\Http\Request;
 
 class nyumbaniController extends Controller
@@ -17,7 +18,9 @@ class nyumbaniController extends Controller
     }
 
     public function movies(){
-        return view('nyumbani.movies');
+        $movies = Movie::orderBy('created_at', 'DESC')->get();
+        
+        return view('nyumbani.movies', compact('movies'));
     }
 
     public function adminDashboard(){

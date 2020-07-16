@@ -1,9 +1,9 @@
 
 @extends('layouts.adminMaster')
 
-@section('title') Events @endsection
+@section('title') Movies @endsection
 
-@section('page-title') Events @endsection
+@section('page-title') Movies @endsection
 
 @section('movies-active') start active open @endsection
 
