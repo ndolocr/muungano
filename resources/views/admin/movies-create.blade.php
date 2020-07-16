@@ -6,7 +6,7 @@
 
 @section('page-title') Movies @endsection
 
-@section('events-active') start active open @endsection
+@section('movies-active') start active open @endsection
 
 @section('content')
     <!-- BEGIN ROW -->

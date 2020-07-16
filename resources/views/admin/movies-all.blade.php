@@ -5,7 +5,7 @@
 
 @section('page-title') Events @endsection
 
-@section('events-active') start active open @endsection
+@section('movies-active') start active open @endsection
 
 @section('content')
 	<!-- BEGIN ROW -->
@@ -28,7 +28,7 @@
                 <thead>
                     <tr>
                         <th></th>
-                        <th> </th>              
+                        <!--<th> </th> -->           
                         <th> Movie Title </th>
                         <th> Year Released </th>
                         <th> Movie Duration </th>
@@ -44,7 +44,7 @@
                         @foreach($datas as $data)
                             <tr>
                                 <td> {{ $loop->iteration }} </td>
-                                <td> <img src="/storage/assets/img/movies/{{ $data ->feature_image }}" alt="Feature Image" style="width: 45px;"> </td>
+                                <!--<td> <img src="{{ asset('storage/assets/img/movies/'. $data->feature_image) }}" alt="Feature Image" style="width: 45px;"> </td> -->
                                 <td> {{ $data->title }} </td>
                                 <td> {{ $data->year_released }} </td>
                                 <td> {{ $data->duration}} minutes </td>
