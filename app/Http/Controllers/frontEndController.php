@@ -2,17 +2,17 @@
 
 namespace App\Http\Controllers;
 
-
 use App\Movie;
 use Illuminate\Http\Request;
 
-class nyumbaniController extends Controller
+class frontEndController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+
     public function mwanzo()
     {
         return view('nyumbani.mwanzo');
@@ -31,6 +31,16 @@ class nyumbaniController extends Controller
         return view('admin.dashboard', compact('movie_count'));
     }
 
+    public function movie_details($id){
+        $movie_details = Movie::find($id);
+
+        return view('nyumbani.movie-details', compact('movie_details'));
+    }
+
+    public function index()
+    {
+        //
+    }
 
     /**
      * Show the form for creating a new resource.

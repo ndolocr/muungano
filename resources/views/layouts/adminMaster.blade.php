@@ -139,7 +139,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         </li>
 
                         <li class="nav-item @yield('dashboard-active') ">
-                            <a href="#" class="nav-link nav-toggle">
+                            <a href="{{ route( 'adminDashboard' ) }}" class="nav-link nav-toggle">
                                 <i class="icon-home"></i>
                                 <span class="title">Dashboard</span>
                                 <span class="selected"></span>

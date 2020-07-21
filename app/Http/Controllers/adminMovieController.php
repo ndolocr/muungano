@@ -89,7 +89,7 @@ class adminMovieController extends Controller
         $movie->save();
 
         //Redirect Admin
-        return redirect()->route('adminDashboard')->with('success', 'Record Successfully Saved!');
+        return redirect()->route('home-movies')->with('success', 'Record Successfully Saved!');
 
 
     }

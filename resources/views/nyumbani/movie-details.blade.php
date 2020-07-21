@@ -62,18 +62,8 @@
 
 		<!-- BEGIN CONTAINER -->
 		<div class="container-fluid">	
-			<div class="row films">
-				@if($movies)
-					@foreach($movies as $movie)
-						<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 film_img">
-							<a href="{{ route('movie-details', $movie->id)}}">
-								<img src="storage/assets/img/movies/{{ $movie->feature_image }}" alt="movie" class="img-responsive fit-image">
-							</a>
-							}
-						</div>
-					@endforeach
-				@endif
-
+			<div class="row">				
+				{{ $movie_details->title }}
 				<div class="clear-float"></div>
 			</div>
 		</div>
