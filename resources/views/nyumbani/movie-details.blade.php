@@ -5,12 +5,12 @@
 		<title>Muungano Theatre</title>
 		
 
-		<link rel="stylesheet" href="assets/font-awesome/css/all.css">
-		<link rel="stylesheet" href="assets/font-awesome/css/all.min.css">
+		<link rel="stylesheet" href="{{ asset('assets/font-awesome/css/all.css') }}">
+		<link rel="stylesheet" href="{{ asset('assets/font-awesome/css/all.min.css') }}">
 		
 
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/other_styles.css" type="text/css">
+		<link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.css') }}" type="text/css">
+		<link rel="stylesheet" href="{{ asset('assets/css/other_styles.css') }}" type="text/css">
 	</head>
 	<body>
 		
@@ -21,7 +21,7 @@
 				
 				<!-- BEGIN LOGO -->
 				<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 logo-yetu">
-					<img src="assets/img/logo/logo.png" alt="logo">
+					<img src="{{ asset('assets/img/logo/logo.png') }}" alt="logo">
 				</div>
 				<!-- END LOGO -->
 
@@ -71,8 +71,8 @@
 
 
 		<!-- BEGIN JAVASCRIPT LINKS -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/bootstrap/js/bootstrap.js"></script>
+		<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+		<script src="{{ asset('assets/bootstrap/js/bootstrap.js') }}"></script>
 		<!-- END JAVASCRIPT LINKS -->
 	</body>
 </html>
