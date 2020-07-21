@@ -63,7 +63,12 @@
 		<!-- BEGIN CONTAINER -->
 		<div class="container-fluid">	
 			<div class="row">				
-				{{ $movie_details->title }}
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 movie-cover-image">
+					<img src="{{ asset('storage/assets/img/movies/'. $movie_details->feature_image) }}" alt="Movie Feature Image">
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 movie-information">
+					{{ $movie_details->title }}
+				</div>
 				<div class="clear-float"></div>
 			</div>
 		</div>

@@ -47,3 +47,7 @@ overflow: hidden;
 @media (max-width: 576px){
 	.logo-yetu img{ border:solid 1px #000; max-width: 90%;}
 }
+
+.movie-cover-image{ background: #999999; height: 80vh; margin: 0 auto; overflow: hidden; text-align: center;}
+
+.movie-cover-image img{ height: 100%; }
